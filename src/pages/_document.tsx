@@ -1,4 +1,6 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+//La representación del documento HTML que se enviará al navegador.
+
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
@@ -9,5 +11,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }

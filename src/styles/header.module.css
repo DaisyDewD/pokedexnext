@@ -1,0 +1,35 @@
+.header {
+    display: grid;
+    font-size: 1.2rem;
+    font-weight: bold ;
+    padding: 10px;
+    place-items: center;
+    background: var(--bg-gradient);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+
+.input{
+    background-color: rgba(121, 121, 121, 0.267);
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    border: none;
+    width: 80vw;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-style: oblique;
+}
+
+/* input:focus{
+    outline: none;
+    
+
+}
+
+input:placeholder{
+    color: lightsalmon;
+    font-style:normal;
+} */
+
+
